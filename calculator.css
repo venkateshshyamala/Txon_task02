@@ -1,0 +1,40 @@
+.Container{
+    height: 100vh;
+    width: 100vw;
+    background-color:rgb(208, 255, 196);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+}
+
+.Calculator{
+    background-color:azure;
+    border-radius: 30px;
+    padding: 20px;
+    margin: 20px;
+    background-color: black;
+}
+.form-input{
+    background-color: black;
+    font-size: 50px;
+    font-weight: bold;
+    border-radius: 10px;
+    box-shadow: none;
+}
+.form-input input{
+    height: 30px;
+    font-weight: bold;
+    background-color: aliceblue;
+    font-style: italic;
+}
+.cal-display{
+    padding: 5px;
+    margin: 5px;
+}
+.cal-display input{
+    padding: 11px;
+    border-radius: 10px;
+    color: black;
+    font-weight: bold;
+}
